@@ -1,0 +1,67 @@
+{
+  "info": {
+    "_postman_id": "f07a2320-b17c-4aec-9eb2-baeee4d2b29c",
+    "name": "Settings API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47708215",
+    "_collection_link": "https://go.postman.co/collection/47708215-f07a2320-b17c-4aec-9eb2-baeee4d2b29c?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Export JSON",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://project-mwh.onrender.com/export/json/198308cbfc8a23",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "export",
+            "json",
+            "198308cbfc8a23"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Export CSV",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://project-mwh.onrender.com/export/csv/198308cbfc8a23",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "export",
+            "csv",
+            "198308cbfc8a23"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

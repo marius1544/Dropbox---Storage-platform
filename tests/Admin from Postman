@@ -1,0 +1,91 @@
+{
+  "info": {
+    "_postman_id": "b5e63906-367c-40ba-a2da-aa559e08dc59",
+    "name": "Admin API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47708215",
+    "_collection_link": "https://go.postman.co/collection/47708215-b5e63906-367c-40ba-a2da-aa559e08dc59?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Admin POST Wrong password",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"password\": \"ThisIsAPassword1*p\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://project-mwh.onrender.com/admin/login",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "admin",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Admin GET",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://project-mwh.onrender.com/admin",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "admin"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Admin POST Correct password",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"password\": \"ThisIsAPassword1*\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://project-mwh.onrender.com/admin/login",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "admin",
+            "login"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

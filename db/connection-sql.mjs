@@ -1,7 +1,11 @@
 import { Client } from 'pg'
 
 export const client = new Client({
-    connectionString: process.env.DATABASE_URL,
+    user: 'postgres',
+    database: 'dbname',
+    port: '5432',
+    host: 'database-1.cvi0seya8ldz.eu-north-1.rds.amazonaws.com',
+    password: 'Supermario1230*',
     ssl: { rejectUnauthorized: false }
 })
 

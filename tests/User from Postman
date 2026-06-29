@@ -1,0 +1,124 @@
+{
+  "info": {
+    "_postman_id": "24ec8b79-315a-4b0d-a473-bcb08d336b55",
+    "name": "User",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "47708215",
+    "_collection_link": "https://go.postman.co/collection/47708215-24ec8b79-315a-4b0d-a473-bcb08d336b55?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"filename\": \"ing.exe\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://project-mwh.onrender.com/user",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "user"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "User",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://project-mwh.onrender.com/user/171cd3e38da111",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "user",
+            "171cd3e38da111"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "User",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"username\": \"Marius\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://project-mwh.onrender.com/user/1aa44375a21489",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "user",
+            "1aa44375a21489"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "User",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://project-mwh.onrender.com/user/1aa44375a21489",
+          "protocol": "https",
+          "host": [
+            "project-mwh",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "user",
+            "1aa44375a21489"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
