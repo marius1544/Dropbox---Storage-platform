@@ -2,7 +2,6 @@ import express from "express";
 import "dotenv/config";
 import userRouter from "./server/server-routes/userAPI.mjs";
 import { connectDB } from "./db/connection-sql.mjs";
-import { client } from "./db/dbfile.mjs"
 import { getL10n } from "./server/services/getL10n.mjs";
 import { getUsers } from "./modules/storageProviderSQL.mjs";
 import exportRouter from "./server/server-routes/settingsAPI.mjs";
