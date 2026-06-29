@@ -7,7 +7,7 @@ import { getL10n } from "./server/services/getL10n.mjs";
 import { getUsers } from "./modules/storageProviderSQL.mjs";
 import exportRouter from "./server/server-routes/settingsAPI.mjs";
 import getAdminUsers from "./server/server-routes/adminGetUser.mjs";
-const PORT = process.env.port; 
+const PORT = 5432; 
 const app = express();
 
 
